@@ -28,7 +28,9 @@ const makeApp = ({ port = config.defaultPort }) => {
     app.use(limiter);
     app.use(helmet.hidePoweredBy());
     app.use(express.json());
-
+    app.get("/", (req, res) => {
+        res.status(404).json(utils.createSingleResponse("Welcome!"));
+    })
     app.use("*", (req, res) => {
         res.status(404).json(utils.createSingleResponse("Path_Not_Found"));
     });
