@@ -4,4 +4,8 @@ A personal starter for ExpressJS apps.
 
 ---
 
-run `npm run i` to initiate
+Start by forking and running the following command in the repository.
+
+```bash
+npm run init
+```
