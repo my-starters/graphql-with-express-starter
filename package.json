@@ -1,0 +1,22 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "A personal starter for ExpressJS apps.",
+  "main": "src/index.js",
+  "scripts": {
+    "i": "npm i express dotenv lodash morgan cors helmet cli-color express-rate-limit && npm i -D nodemon",
+    "start": "node src/index",
+    "dev": "nodemon  src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-starters/express-starter.git"
+  },
+  "keywords": [],
+  "author": "https://github.com/Estifanos-Neway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/my-starters/express-starter/issues"
+  },
+  "homepage": "https://github.com/my-starters/express-starter#readme"
+}
