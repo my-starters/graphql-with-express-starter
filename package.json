@@ -4,7 +4,7 @@
   "description": "A personal starter for ExpressJS apps.",
   "main": "src/index.js",
   "scripts": {
-    "init": "npm i express dotenv lodash morgan cors helmet cli-color express-rate-limit && npm i -D nodemon",
+    "init": "npm i express dotenv lodash morgan cors helmet cli-color express-rate-limit && npm i -D nodemon eslint",
     "start": "node src/index",
     "dev": "nodemon  src/index"
   },
@@ -30,6 +30,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "eslint": "^8.28.0",
     "nodemon": "^2.0.20"
   }
 }
