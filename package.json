@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "init": "npm i express dotenv lodash morgan cors helmet cli-color express-rate-limit && npm i -D nodemon eslint",
-    "start": "node src/index",
+    "start": "NODE_ENV=production node src/index",
     "dev": "nodemon  src/index"
   },
   "repository": {
