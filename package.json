@@ -4,33 +4,38 @@
   "description": "A personal starter for ExpressJS apps.",
   "main": "src/index.js",
   "scripts": {
-    "init": "npm i express dotenv lodash morgan cors helmet cli-color express-rate-limit && npm i -D nodemon eslint",
+    "init": "npm i express dotenv lodash morgan cors helmet cli-color express-rate-limit express-graphql graphql graphql-depth-limit graphql-disable-introspection graphql-no-alias && npm i -D nodemon eslint",
     "start": "NODE_ENV=production node src/index",
     "dev": "nodemon  src/index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/my-starters/express-starter.git"
+    "url": "git+https://github.com/my-starters/graphql-with-express-starter.git"
   },
   "keywords": [],
   "author": "https://github.com/Estifanos-Neway",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/my-starters/express-starter/issues"
+    "url": "https://github.com/my-starters/graphql-with-express-starter/issues"
   },
-  "homepage": "https://github.com/my-starters/express-starter#readme",
+  "homepage": "https://github.com/my-starters/graphql-with-express-starter#readme",
   "dependencies": {
     "cli-color": "^2.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
     "express-rate-limit": "^6.7.0",
+    "graphql": "^15.8.0",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-disable-introspection": "^1.2.0",
+    "graphql-no-alias": "^3.0.3",
     "helmet": "^6.0.1",
     "lodash": "^4.17.21",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "eslint": "^8.28.0",
+    "eslint": "^8.31.0",
     "nodemon": "^2.0.20"
   }
 }
