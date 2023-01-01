@@ -1,7 +1,7 @@
 {
   "name": "express-starter",
   "version": "1.0.0",
-  "description": "A personal starter for ExpressJS apps.",
+  "description": "A personal starter for GraphQL with ExpressJS apps.",
   "main": "src/index.js",
   "scripts": {
     "init": "npm i express dotenv lodash morgan cors helmet cli-color express-rate-limit express-graphql graphql graphql-depth-limit graphql-disable-introspection graphql-no-alias express-graphql graphql graphql-depth-limit graphql-disable-introspection graphql-no-alias && npm i -D nodemon eslint",
